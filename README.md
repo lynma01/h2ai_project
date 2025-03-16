@@ -1,4 +1,5 @@
 # Orderli: Scheduler for Patient Safety, and Risk Management
+![Orderli Logo](images/logo.jpeg)
 
 ## Summary
 
