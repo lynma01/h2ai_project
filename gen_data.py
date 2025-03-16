@@ -95,6 +95,24 @@ def gen_claim() -> dict:
 claims = [gen_claim() for y in range (10000)]
 
 # %%
-df = pl.DataFrame(data=claims).write_parquet("data/model_data.parquet")
+df = pl.DataFrame(data=claims).sql("""
+WITH ing as (
+    SELECT DISTINCT
+      proc_date
+    , proc_time
+    , CONCAT(LEFT(proc_time, 2), ':00') as proc_hour
+    , UNNEST(patient)
+    , UNNEST(admit_diag)
+    , UNNEST(provider)
+    , UNNEST("procedure")
+    , complication
+
+  FROM "data/model_data.parquet")
+
+, oops as (
+  SELECT DISTINCT * 
+    , CASE WHEN code NOT IN acceptable_codes THEN complication_cost * complication ELSE 0 END as true_oopsie_cost 
+  FROM ing
+""").write_parquet("data/model_data.parquet")
 
 # %%

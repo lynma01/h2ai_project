@@ -3674,6 +3674,21 @@ files = [
 streamlit = ">=1.12.0,<2.0.0"
 
 [[package]]
+name = "streamlit-elements"
+version = "0.1.0"
+description = "React Components for Streamlit."
+optional = false
+python-versions = ">=3.6"
+groups = ["main"]
+files = [
+    {file = "streamlit-elements-0.1.0.tar.gz", hash = "sha256:5f9f116f22df3ce4a8636b1dee7c2fd3dc3cb0c66267fd28c3e0314aa1d303a7"},
+    {file = "streamlit_elements-0.1.0-py3-none-any.whl", hash = "sha256:593c4b88c399c55879aa76f7f42970f30106f66acaa4baada6338ae5571790df"},
+]
+
+[package.dependencies]
+streamlit = ">=1.4.0"
+
+[[package]]
 name = "tenacity"
 version = "9.0.0"
 description = "Retry code until it succeeds"
@@ -3945,4 +3960,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<4.0"
-content-hash = "1fc84e53bc07f338603a47b59e0585e9f4073dce914d0564fc470edfa85f489d"
+content-hash = "2d8594aac26c64cecc51cd24a7522e0ddae272ed29a2bce320a51b2f5a03e2ac"
