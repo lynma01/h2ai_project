@@ -32,6 +32,16 @@ def main():
 
         - **Improved Resource Management:**  
         The app aids in allocating provider resources more effectively, ensuring that the most suitable staff are scheduled for procedures. This targeted approach helps mitigate risks and enhances operational efficiency.
+
+        - **Streamlined Decision-Making:**  
+        Orderli provides clear, actionable insights, allowing risk managers to make informed scheduling decisions without the need for extensive manual analysis.
+
+        - **Transparency and Accountability:**  
+        Detailed risk reports and scheduling recommendations give hospital administrators a transparent view of the decision-making process. This transparency supports better governance and adherence to safety protocols.
+
+        - **Operational Efficiency:**  
+        With automated risk assessments and scheduling suggestions, risk managers can focus on broader strategic initiatives rather than getting bogged down in day-to-day scheduling challenges.
+
         """)
     st.write("---")
 
