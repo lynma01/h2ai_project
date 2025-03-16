@@ -67,15 +67,15 @@ Finally, we wish to apply our algorithm to other industries. Are there times whe
 
 ## Setup Instructions
 
-1. Install the [Poetry Package Manager](https://python-poetry.org) if you haven't already. 
+1. Install the [Poetry Package Manager](https://python-poetry.org) if you haven't already. The following command will install any required dependencies from the `pyproject.toml` file:
 
 ```poetry install```
 
-2. Run the app in streamlit as:
+1. To run the app, execute the following command:
 
 ```poetry run streamlit run app.py```
 
-3. Access the streamlit app in the browser using the link left in the terminal.
+1. Access the streamlit app in the browser by clicking either the `Local URL` or `Network URL` left in the terminal.
 
 ```
   You can now view your Streamlit app in your browser.
