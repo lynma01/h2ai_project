@@ -17,6 +17,17 @@ By suggesting rescheduling of certain procedures based on risk prediction, Order
 - **Improved Resource Management:**  
 The app aids in allocating provider resources more effectively, ensuring that the most suitable staff are scheduled for procedures. This targeted approach helps mitigate risks and enhances operational efficiency.
 
+## Photos
+
+### Home Page
+![homepage](images/home_page.jpeg)
+
+### App View
+![app_view](images/app_view.jpeg)
+
+### Share Screen
+![share_screen](images/share_screen.jpeg)
+
 ## Setup Instructions
 
 1. Install the [Poetry Package Manager](https://python-poetry.org) if you haven't already. 
